@@ -2,31 +2,29 @@ Bank Loan Data — Exploratory Data Analysis (EDA)
 
 Project: Bank Loan Data EDA
 
-This repository contains an exploratory data analysis (EDA) of a bank loan dataset using a Jupyter Notebook (Bank_loan_data_EDA.ipynb). The goal is to understand factors that influence loan approvals, clean and preprocess the data, visualize distributions and relationships, and highlight insights useful for downstream modeling.
+- This repository contains an exploratory data analysis (EDA) of a bank loan dataset using a Jupyter Notebook (Bank_loan_data_EDA.ipynb). The goal is to understand factors that influence loan approvals, clean and preprocess the data, visualize distributions and relationships, and highlight insights useful for downstream modeling.
 
-Table of contents
+# Table of contents
 
-Project Overview
+1. Project Overview
 
-Files in this repo
+2. Files in this repo
 
-How to run
+3. How to run
 
-Notebook structure & steps performed
+4. Notebook structure & steps performed
 
-Key analyses and visualizations
+5. Key analyses and visualizations
 
-Dependencies
+6. Dependencies
 
-Data dictionary (example)
+7. Data dictionary (example)
 
-HTML snippet — quick visual preview
+8. Recommendations & next steps
 
-Recommendations & next steps
+9. Author / Contact
 
-Author / Contact
-
-Project overview
+1. Project overview
 
 This EDA aims to:
 
@@ -40,7 +38,7 @@ Derive features that might be predictive for loan default/approval models.
 
 This notebook is intended for data analysts, students preparing assignments, or engineers starting a modeling pipeline.
 
-Files in this repo
+2. Files in this repo
 
 Bank_loan_data_EDA.ipynb — main Jupyter notebook with step-by-step EDA and plots.
 
@@ -50,7 +48,7 @@ data/ (optional) — place your dataset CSV files here (e.g., loan_data.csv).
 
 If you add more files (scripts, models), update this README accordingly.
 
-How to run
+3. How to run
 
 Clone the repository:
 
@@ -72,7 +70,7 @@ jupyter lab
 
 Execute cells top-to-bottom. If any datasets are missing, place them in the data/ folder or update the notebook cell that loads the file.
 
-Notebook structure & steps performed
+4. Notebook structure & steps performed
 
 The notebook follows a clear, reproducible workflow:
 
@@ -92,7 +90,7 @@ Bivariate analysis — correlation matrices, scatter plots, cross-tabs (e.g., Lo
 
 Summary of insights — bullet points with actionable findings.
 
-Key analyses and visualizations
+5. Key analyses and visualizations
 
 Distribution plots for ApplicantIncome, CoapplicantIncome, and LoanAmount (show skewness and potential log-transform needs).
 
@@ -104,7 +102,7 @@ Missing-value heatmap to visualize sparsity.
 
 Tip: Save important figures from the notebook to figures/ for use in presentations or reports.
 
-Dependencies
+6. Dependencies
 
 You can place exact package versions in requirements.txt. Example packages commonly used in this notebook:
 
@@ -115,7 +113,7 @@ seaborn
 scikit-learn
 jupyter
 openpyxl  # if reading/writing Excel files
-Data dictionary (example)
+7. Data dictionary (example)
 
 Update this section to match the columns in your dataset. Below is a typical example for bank loan datasets.
 
@@ -145,7 +143,7 @@ Property_Area — Urban / Semiurban / Rural
 
 Loan_Status — Approved (Y) / Not Approved (N)
 
-Recommendations & next steps
+8. Recommendations & next steps
 
 Feature importance / modelling: Use the cleaned dataset to train tree-based models (RandomForest, XGBoost) and inspect feature importances.
 
@@ -157,7 +155,7 @@ Cross-validation: Use stratified K-folds when the target is imbalanced.
 
 Deployment: Wrap preprocessing + model into a single sklearn.pipeline and save with joblib.
 
-Author / Contact
+9. Author / Contact
 
 Prepared by: Anjali Wable
 
