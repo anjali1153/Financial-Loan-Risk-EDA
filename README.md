@@ -24,7 +24,8 @@ Project: Bank Loan Data EDA
 
 9. Author / Contact
 
-1. Project overview
+
+1.  Project overview
 
 This EDA aims to:
 
