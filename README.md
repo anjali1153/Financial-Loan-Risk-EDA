@@ -33,12 +33,17 @@ The dataset contains 45,000+ loan records, including:
 3. Interest rate and loan amount strongly influenced default probability
 4. Loan approval trends varied noticeably across customer segments
 
-# Dashboard / Visual Output
+# Dashboard / Visual Output-
 1. Power BI dashboards were created to visualize:
 2. Loan approval vs rejection trends
 3. Default risk distribution
 4. Key performance indicators (KPIs)
 (Dashboard screenshots added in the repository)
 
+# Business Recommendations-
+1. Introduce stricter credit checks for high loan amounts
+2.  Offer lower interest rates to low-risk customers
+3. Monitor self-employed applicants more closely
+   
 # Conclusion
 This project demonstrates how data analysis can help financial institutions reduce loan risk, improve approval decisions, and identify high-risk customer profiles using data-driven insights.
